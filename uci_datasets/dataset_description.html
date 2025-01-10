@@ -1,0 +1,78 @@
+
+<html>
+<head>
+<title>CSE 4309 - Description of UCI Datasets</title>
+</head>
+
+<body>
+<h1>
+<a href="../..">CSE 4309</a> - <a href="../">Assignments</a> -
+Description of <a href=".">UCI Datasets</a>
+</h1>
+
+The files in the <a href="./">UCI datasets</a> directory contain training files and test files for three datasets.
+Both the training file and the test file are text files, containing data in tabular format. Each value is a number, and values are separated by white space. The i-th row and j-th column contain the value for the j-th dimension of the i-th  object. The only exception is the LAST column, that stores the class label for each object. <strong>Make sure you do not use data from the last column (i.e., the class labels) as parts of the input vector.</strong>
+
+<p>
+
+The datasets are copied from the <a href="http://archive.ics.uci.edu/ml/datasets.html">UCI repository of machine learning datasets</a>. Here are some details on each dataset:
+
+<ul>
+
+<li> The <tt>pendigits</tt> dataset. This dataset contains data for pen-based recognition of handwritten digits. 
+
+<ul> 
+
+<li> 7494 <a href="pendigits_training.txt">training objects</a>.
+
+<li> 3498 <a href="pendigits_test.txt">test objects</a>.
+
+<li> 16 dimensions.
+
+<li> 10 classes.
+
+</ul>
+
+<p>
+
+<li> The <tt>satellite</tt> dataset. The full name of this dataset is Statlog (Landsat Satellite) Data Set, and  it contains data for classification of pixels in satellite images.
+
+<ul> 
+
+<li> 4435 <a href="satellite_training.txt">training objects</a>.
+
+<li> 2000 <a href="satellite_test.txt">test objects</a>.
+
+<li> 36 dimensions.
+
+<li> 6 classes.
+
+</ul>
+
+<p>
+
+<li> The <tt>yeast</tt> dataset. This dataset contains some biological data whose purpose I do not understand myself.
+
+<ul> 
+
+<li> 1000 <a href="yeast_training.txt">training objects</a>..
+
+<li> 484 <a href="yeast_test.txt">test objects</a>.
+
+<li> 8 dimensions.
+
+<li> 10 classes.
+
+</ul>
+
+</ul>
+
+For each dataset, a training file and a test file are provided. The name of each file indicates what dataset the file belongs to, and whether the file contains training or test data. 
+
+<p>
+
+Note that, for the purposes of your assignments, it does not matter at all where the data come from. The methods that you are asked to implement should work on all three datasets, as well as ANY other datasets following the same format.
+
+
+</body>
+</html>
