@@ -9,7 +9,7 @@ def create_training_examples(filename, num_examples=1000, min_words=40):
     # Try different encodings
     encodings = ['utf-8', 'latin-1', 'cp1252']
     
-    for encoding in encodings:
+    for encoding in encodings:      
         try:
             with open(filename, 'r', encoding=encoding) as f:
                 text = f.read()
